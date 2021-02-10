@@ -1,2 +1,4 @@
 # javascript_algorithms
-#### Code demonstating different programming algorythms using Javascript
+#### Code demonstating different programming algorithms using Javascript.
+
+1. FizzBuzz
