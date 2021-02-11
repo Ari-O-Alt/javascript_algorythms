@@ -1,3 +1,5 @@
+/* The goal of this program is to find out how many times a character appears in a string. It counts empty spaces and it's case sensitive
+ */
 const stringToCount = 'Hello world!';
 const container = document.getElementById('container');
 const content = document.getElementById('content');
@@ -17,6 +19,7 @@ const findOccurrences = (string) => {
     }
   }
 
+  // we print the letters to the page - we first create a paragraph for each letter, and then we inject the letter into the paragraph
   for (const prop in finalObject) {
     const element = document.createElement('p');
     const elText = document.createTextNode(`${prop}: ${finalObject[prop]}`);
