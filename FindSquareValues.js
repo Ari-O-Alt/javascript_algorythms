@@ -1,4 +1,4 @@
-/* The purpose of this program is to find out if the numbers in the second array represent all square values of the numbers n the first array */
+/* The purpose of this program is to find out if the numbers in the second array represent all square values of the numbers n the first array. If all values in the second array are square values of the numbers in the first array, the program returns a message. */
 
 // We have two arrays
 const array1 = [2, 6, 10];
@@ -22,6 +22,8 @@ const findSquaredValues = (arr1, arr2) => {
 
     // if a corresponding element is found, it is removed from the second array
     array2.splice(indexInComparedArray, 1);
+
+    //when the second array is empty, a message gets printed to the console
     if (array2.length === 0) {
       console.log('All values in the second array are square values of the numbers in the first array!');
     }
