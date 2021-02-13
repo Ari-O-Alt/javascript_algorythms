@@ -1,4 +1,5 @@
-/* The purpose of this program is to find out if an array contains any two numbers that sum up to zero. We'll use as refrence points, two numbers in the array, the first and the last and change their index depending on if the numbers have been found already or not. If not two numbers sum up to zero, we'll print the message: "No two numbers in this array sum up to zero!" */
+/* The purpose of this program is to find out if a sorted array contains any two numbers that sum up to zero. We'll use as refrence points, two numbers in the array, the first and the last and change their index depending on if the numbers have been found already or not. If not two numbers sum up to zero, we'll print the message: "No two numbers in this array sum up to zero!"
+ATTENTION: This will only worlk with sorted arrays. If you're using unsorted arrays, you must need to first sort them. */
 
 const numbersArray = [-4, -2, 0, 4, 9];
 
