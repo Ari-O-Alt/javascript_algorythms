@@ -3,20 +3,25 @@
 const arrayOfNumbers = [-10, -5, -1, -1, 2, 4, 4, 5, 8];
 
 const findUniqueValues = (array) => {
+  // if the array has no items, we stop the execution and return zero
   if (array.length === 0) {
     return 0;
   }
 
+  // we set a start index, which will be ut first pointer
   let startIndex = 0;
 
+  // we then start a loop at index 1, since index 0 is already being used as a startIndex
   for (let innerIndex = 1; innerIndex < array.length; innerIndex++) {
     console.log('AAA', array[startIndex], array[innerIndex]);
     console.log(startIndex, innerIndex);
 
+    // if the number at the startIndex is not equal to the number at innerIndex, we increase the start index by one
     if (array[startIndex] !== array[innerIndex]) {
       startIndex++;
+      // after we increase the start index by one, we store in it the value on the inner index
       array[startIndex] = array[innerIndex];
-      console.log(arrayOfNumbers);
+      console.log('start', array[startIndex], 'inner', array[innerIndex]);
     }
   }
 
