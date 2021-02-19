@@ -1,6 +1,6 @@
 # javascript_algorithms
 #### Code demonstating different programming algorithms using Javascript.
-
+Program that prints the numbers from 1 to 100. For numbers divisible by 3, it prints “Fizz”. For numbers divisible by 5, it prints “Buzz”. For numbers divisible by both 3 and 5, it prints “FizzBuzz”
 ### 1. FizzBuzz
 ### 2. Are two words anagrams?
 Program that takes two strings as input and tells us if they are anagrams or not.
