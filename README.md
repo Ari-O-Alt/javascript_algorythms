@@ -6,5 +6,6 @@
 Program that takes two strings as input and tells us if they are anagrams or not.
 ### 4. Find square numbers in two arrays.
 A program that takes two arrays as inputs and finds out if all the values in the second array are square numbers for the values in the first array.
-### 5. Find unuique values in an array.
+### 5. Find unique values in an array.
+Program that finds the number of unique values in an array, using two pointers.
 ### 6. Is sum of two numbers in an array zero?
