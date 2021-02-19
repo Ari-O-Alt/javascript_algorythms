@@ -3,3 +3,4 @@
 
 1. FizzBuzz
 2. Are two words anagrams?
+3. Is sum of two numbers in an array zero?
