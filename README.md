@@ -9,3 +9,4 @@ A program that takes two arrays as inputs and finds out if all the values in the
 ### 5. Find unique values in an array.
 Program that finds the number of unique values in an array, using two pointers.
 ### 6. Is sum of two numbers in an array zero?
+Program that finds if in a sorted array of numbers, there are any two that sum up to zero. 
