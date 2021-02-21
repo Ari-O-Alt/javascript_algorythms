@@ -13,12 +13,14 @@ const findUniqueValues = (array) => {
 
   // we then start a loop at index 1, since index 0 is already being used as a startIndex
   for (let innerIndex = 1; innerIndex < array.length; innerIndex++) {
-    console.log('AAA', array[startIndex], array[innerIndex]);
-    console.log(startIndex, innerIndex);
+    console.log('Starting index values', startIndex, innerIndex);
+    console.log('Starting numbers in the array', array[startIndex], array[innerIndex]);
 
     // if the number at the startIndex is not equal to the number at innerIndex, we increase the start index by one
     if (array[startIndex] !== array[innerIndex]) {
       startIndex++;
+      console.log('Increased start index inside the loop', startIndex);
+      console.log('Inner index inside the loop', innerIndex);
       // after we increase the start index by one, we store in it the value on the inner index
       array[startIndex] = array[innerIndex];
       console.log('start', array[startIndex], 'inner', array[innerIndex]);
